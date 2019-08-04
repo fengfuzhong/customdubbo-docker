@@ -3,8 +3,8 @@ customdubbo-docker
 
 自定义的dubbo及使用docker数据容器作为注册中心
 
-
 dockerfile镜像制作如下：
+
 ![docker镜像制作目录如下](https://github.com/fengfuzhong/customdubbo-docker/blob/master/src/main/resources/fd512a3fa35dac36d80e39936a49868.png)
 
 ```
