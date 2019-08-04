@@ -4,6 +4,7 @@ customdubbo-docker
 自定义的dubbo及使用docker数据容器作为注册中心
 
 dockerfile镜像制作如下：
+```
 1.dockerfile内容
 #FROM指定基础镜像：表示以该镜像为基础搭建镜像
 FROM daocloud.io/library/java
@@ -49,3 +50,4 @@ CMD java com.feng.rpc.consumer.Comsumer
 3.容器启动
 服务提供者容器启动：docker run --name provider -it -d -p 8080:8080 alexfeng/customdubboserver
 服务提供者消费者：docker run --name consumer -it --volumes-from provider alexfeng/customdubboconsumer
+```
